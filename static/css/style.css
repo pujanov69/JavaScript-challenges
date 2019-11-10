@@ -1,0 +1,65 @@
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+} 
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('data:image/jpeg;base64,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');
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 div{
+    border: solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+/*style flex-box-rps divs */
