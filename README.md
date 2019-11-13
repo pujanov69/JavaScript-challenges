@@ -1,4 +1,4 @@
-# Begginer level games in javascript
+# Beginner level games in javascript
 1. Rock Paper Scissors
 2. Black Jack (A card game).
 
